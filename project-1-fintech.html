@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subscription Fintech — FP&A Model & KPI Dashboard</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="brand"><a href="index.html">Your Name — CIMA Strategic</a></div>
+      <div class="links">
+        <a href="projects.html">Projects</a>
+      </div>
+    </nav>
+
+    <article class="card">
+      <h1>Subscription Fintech — FP&A Model & KPI Dashboard</h1>
+      <p class="small">Tools: Excel, Power BI, SQL | Scope: 24‑month model & CFO dashboard | Data: synthetic</p>
+      <hr>
+      <h2>Executive summary</h2>
+      <p>Built a driver-based model for a subscription fintech (new subs, churn, ARPU, CAC, support cost). Published a Power BI dashboard with variance waterfall, cohorts, and cash runway. Key finding: a 1pp churn improvement extends runway by 5 months with current CAC and pricing; recommended action is a retention program targeting high-cost cohorts.</p>
+      <h2>Problem & context</h2>
+      <ul class="check">
+        <li>Goal: produce a 24‑month P&L, cash plan, and KPI pack</li>
+        <li>Drivers: pricing, discounts, churn, CAC, FX, headcount</li>
+        <li>Constraints: limited historicals → scenario ranges</li>
+      </ul>
+      <h2>Data & method</h2>
+      <ul class="check">
+        <li>Excel model with dynamic arrays; separate inputs/logic/outputs</li>
+        <li>SQL window functions to build monthly retention cohorts</li>
+        <li>Power BI model (star schema) and DAX time intelligence</li>
+      </ul>
+      <h2>Results</h2>
+      <ul class="check">
+        <li>Variance waterfall Plan→Actual→Forecast</li>
+        <li>KPIs: MRR/ARR, churn, CAC payback, margin</li>
+        <li>Sensitivity: churn ±2pp, CAC ±10%, FX ±5%</li>
+      </ul>
+      <h2>What I'd do next</h2>
+      <p>Add product‑level pricing tests and retention drivers; build cohort LTV with marketing channel granularity.</p>
+      <hr>
+      <p><a class="btn" href="projects.html">Back to projects</a></p>
+    </article>
+  </div>
+</body>
+</html>

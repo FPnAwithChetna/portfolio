@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Energy — Margin Forecast Under Price Shocks</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <div class="brand"><a href="index.html">Your Name — CIMA Strategic</a></div>
+      <div class="links">
+        <a href="projects.html">Projects</a>
+      </div>
+    </nav>
+
+    <article class="card">
+      <h1>Energy — Margin Forecast Under Price Shocks</h1>
+      <p class="small">Tools: Excel, Power Query | Scope: price→COGS→margin sensitivity | Data: synthetic</p>
+      <hr>
+      <h2>Executive summary</h2>
+      <p>Modeled the impact of wholesale price swings on supply margins. Built a sensitivity table for hedge %, volume, and OPEX, and produced a 6‑slide pack with risks/mitigations. Key finding: increasing hedge from 40%→60% stabilizes margin variance by 35% with modest drag on upside.</p>
+      <h2>Problem & context</h2>
+      <ul class="check">
+        <li>Goal: monthly margin forecast with scenario analysis</li>
+        <li>Drivers: price, volume, hedge %, OPEX, FX</li>
+        <li>Constraints: partial historicals → proxy series</li>
+      </ul>
+      <h2>Data & method</h2>
+      <ul class="check">
+        <li>Power Query pipeline for price series → clean fact table</li>
+        <li>Variance logic and margin bridge in Excel</li>
+        <li>Stress tests and executive commentary</li>
+      </ul>
+      <h2>Results</h2>
+      <ul class="check">
+        <li>Margin variance waterfall</li>
+        <li>Sensitivity grid (price × hedge × volume)</li>
+        <li>30/60/90 action list</li>
+      </ul>
+      <h2>What I'd do next</h2>
+      <p>Connect to a live data source; expand to capex/asset-level profitability; add FX hedging overlays.</p>
+      <hr>
+      <p><a class="btn" href="projects.html">Back to projects</a></p>
+    </article>
+  </div>
+</body>
+</html>
